@@ -1,4 +1,4 @@
-package com.apurba.in.ex05_payLoadManagement;
+package com.apurba.in.ex05_payLoadManagement.gson_POJOmanualCreate;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -40,9 +40,6 @@ public class apiTesting025_RestAssured_PayLoad_POJO {
         booking.setBookingdates(bookingDates);
 
         System.out.println(booking);
-
-
-
 
         RequestSpecification r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");

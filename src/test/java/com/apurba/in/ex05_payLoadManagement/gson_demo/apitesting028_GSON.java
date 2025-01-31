@@ -1,6 +1,5 @@
 package com.apurba.in.ex05_payLoadManagement.gson_demo;
 
-import com.apurba.in.ex05_payLoadManagement.BookingDates;
 import com.google.gson.Gson;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

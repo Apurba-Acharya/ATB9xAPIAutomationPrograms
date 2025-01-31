@@ -16,11 +16,11 @@ public class apitesting007_get_BDDStyles {
     }
     @Test
     public void get_negative(){
-        String pincode = "-1";
+        String pincode = "721601";
         RestAssured.given()
                 .baseUri("https://api.zippopotam.us")
                 .basePath("/IN/"+pincode)
                 .when().log().all().get()
-                .then().log().all().statusCode(200);
+                .then().log().all().statusCode(404);
     }
 }

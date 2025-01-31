@@ -25,9 +25,9 @@ public class apitesting012_patch_NonBDDStyles {
         r.cookie("token",token);
         r.log().all().body(payloadpatch);
 
-        Response r1 = r.when().log().all().patch();
+        Response response = r.when().log().all().patch();
 
-        ValidatableResponse vr1 = r1.then().log().all().statusCode(200);
+        ValidatableResponse vr1 = response.then().log().all().statusCode(200);
 
 
     }

@@ -11,6 +11,7 @@ public class apitesting008_get_NonBDDStyles {
     RequestSpecification r;
     Response response;
     ValidatableResponse vr;
+
     @Test
     public void test_GET_NonBDD(){
         String pincode = "700082";
@@ -20,9 +21,9 @@ public class apitesting008_get_NonBDDStyles {
 
         response = r.when().log().all().get();
 
-        vr = response.then()
-                .log().all().statusCode(200);
+        vr = response.then().log().all().statusCode(200);
     }
+
     @Test
     public void test_GET_NonBDDnegative1(){
         String pincode = "440P44";
@@ -35,6 +36,7 @@ public class apitesting008_get_NonBDDStyles {
         vr = response.then()
                 .log().all().statusCode(200);
     }
+
     @Test
     public void test_GET_NonBDDnegative2(){
         String pincode = "721601";
@@ -44,8 +46,12 @@ public class apitesting008_get_NonBDDStyles {
 
         response = r.when().log().all().get();
 
-        vr = response.then()
-                .log().all().statusCode(404);
-    }
+        vr = response.then().log().all().statusCode(404);
 
+
+        RequestSpecification rs = RestAssured.given();
+        rs.baseUri("");
+        rs.basePath("");
+        Response res = rs.when().log().all().get();
+    }
 }

@@ -35,7 +35,5 @@ public class apitesting011_put_NonBDDStyles {
         Response r1 = r.when().log().all().put();
 
         ValidatableResponse vr1 = r1.then().log().all().statusCode(200);
-
-
     }
 }

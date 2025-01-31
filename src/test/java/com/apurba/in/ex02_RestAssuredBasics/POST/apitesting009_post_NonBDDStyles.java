@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class apitesting009_post_NonBDDStyles {
 
     RequestSpecification r;
-    Response response1;
+    Response response;
     ValidatableResponse vr;
     @Test
     public void test_GET_NonBDD() {
@@ -24,9 +24,9 @@ public class apitesting009_post_NonBDDStyles {
         r.contentType(ContentType.JSON);
         r.log().all().body(payload);
 
-        response1 = r.when().log().all().post();
+        response = r.when().log().all().post();
 
-        vr = response1.then().log().all().statusCode(200);
+        vr = response.then().log().all().statusCode(200);
 
     }
 }

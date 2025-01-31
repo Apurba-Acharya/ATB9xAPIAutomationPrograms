@@ -1,4 +1,4 @@
-package com.apurba.in.ex05_payLoadManagement.gson_pojoEasyway;
+package com.apurba.in.ex05_payLoadManagement.gson_pojoEasyway_jsonschema2pojo;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

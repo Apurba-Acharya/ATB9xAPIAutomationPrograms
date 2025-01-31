@@ -45,7 +45,7 @@ public class apiTesting024_TestNG_RestAssured_AllTypeOfAssertions {
         Assert.assertEquals(firstname, "Jim");
         Assert.assertEquals(lastname, "Brown");
 
-        //AssertJ
+        //or AssertJ
         assertThat(bookingId).isNotNull().isNotZero().isPositive();
         assertThat(firstname).isEqualTo("Jim").isNotEmpty().isNotNull();
 

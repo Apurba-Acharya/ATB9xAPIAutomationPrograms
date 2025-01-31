@@ -1,7 +1,10 @@
-package com.apurba.in.ex05_payLoadManagement.gson_pojoEasyway;
-import com.apurba.in.ex05_payLoadManagement.BookingDates;
+package com.apurba.in.ex05_payLoadManagement.gson_pojoEasyway_jsonschema2pojo;
+import com.apurba.in.ex05_payLoadManagement.gson_POJOmanualCreate.BookingDates;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+//1. Copy and pate the JSON in this website: https://www.jsonschema2pojo.org/#google_vignette
+//2. It will generate pojo class automatically
 
 public class Booking {
 

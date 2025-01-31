@@ -1,4 +1,4 @@
-package com.apurba.in.ex05_payLoadManagement;
+package com.apurba.in.ex05_payLoadManagement.gson_POJOmanualCreate;
 
 public class BookingDates {
     private String checkin;

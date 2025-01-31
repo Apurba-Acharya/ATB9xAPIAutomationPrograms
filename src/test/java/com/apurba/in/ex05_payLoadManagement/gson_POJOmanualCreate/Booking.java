@@ -1,4 +1,4 @@
-package com.apurba.in.ex05_payLoadManagement;
+package com.apurba.in.ex05_payLoadManagement.gson_POJOmanualCreate;
 
 //import com.sun.org.apache.xpath.internal.operations.Bool;
 

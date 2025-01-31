@@ -31,10 +31,13 @@ public class apiTesting021_TestNG_RestAssured_Assertions {
         Response r1 = r.when().log().all().post();
         ValidatableResponse vr = r1.then().log().all().statusCode(200);
 
+        //1. Take the response format from postman
+        //2. Go to: https://jsonpathfinder.com/
+        //3. Paste the Response
+        //4. Copy id from Path box (eg: bookingid)
+
         vr.body("bookingid", Matchers.notNullValue());
         vr.body("booking.firstname",Matchers.equalTo("Jim"));
         vr.body("booking.lastname",Matchers.equalTo("Brown"));
-
-
     }
 }
