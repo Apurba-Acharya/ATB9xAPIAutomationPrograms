@@ -10,7 +10,7 @@
         </groups>
 
         <classes>
-            <class name="com.apurba.in.ex03_testNGExample.apitesting014_TestNGroup">
+            <class name="ex03_testNGExample.apitesting014_TestNGroup">
             </class>
         </classes>
      </test>

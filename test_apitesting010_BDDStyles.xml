@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/APURBA ACHARYA/IdeaProjects/ATB9xAPIAutomationPrograms">
         <classes>
-            <class name="com.apurba.in.ex02_RestAssuredBasics.POST.apitesting010_post_BDDStyles">
+            <class name="POST.ex02_RestAssuredBasics.apitesting010_post_BDDStyles">
             </class>
         </classes>
     </test>

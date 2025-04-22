@@ -6,7 +6,7 @@
         <parameter name="browser" value="firefox"></parameter>
 
         <classes>
-            <class name="com.apurba.in.ex03_testNGExample.apitesting017_Parameter">
+            <class name="ex03_testNGExample.apitesting017_Parameter">
             </class>
         </classes>
      </test>
